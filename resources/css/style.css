@@ -118,3 +118,17 @@ body {
     padding: 8px;
     margin-top: 14px;
 }
+
+.imgcon_small {
+    width: 35%;
+    margin: 16px;
+}
+
+.imgcon_small img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    width: 65%;
+}
