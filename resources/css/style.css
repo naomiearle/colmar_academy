@@ -97,6 +97,10 @@ body {
     margin: 32px 24px;
 }
 
+.imgcon_large h3, p {
+    font-family: "Open Sans", sans-serif;
+}
+
 .imgcon_large img {
     width: 100%;
     height: auto;
@@ -131,4 +135,18 @@ body {
 
 .text {
     width: 65%;
+}
+
+.forty {
+    width: 40%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+
+.cards {
+    
 }
