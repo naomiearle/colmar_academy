@@ -20,6 +20,7 @@
 
 body {
     margin: 0;
+    color: #4a4a4a;
 }
 
 /* Color Styles */
@@ -30,8 +31,8 @@ body {
 }
 
 .backgray {
-    background-color: gray;
-    border: 1px solid gray;
+    background-color: #cbcbcb;
+    border: 1px solid #cbcbcb;
 }
 
 /* Header Styles */
@@ -97,11 +98,11 @@ body {
     margin: 32px 24px;
 }
 
-.imgcon_large h3, p {
+.imgcon_large h3, h4, p {
     font-family: "Open Sans", sans-serif;
 }
 
-.imgcon_large img {
+.imgcon_large img, video {
     width: 100%;
     height: auto;
 }
@@ -110,13 +111,12 @@ body {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: "Open Sans", sans-serif;
 }
 
 #start {
     width: 100%;    
-    background-color: #000;
+    background-color: #4a4a4a;
     color: #fff;
     text-align: center;
     padding: 8px;
@@ -144,9 +144,55 @@ body {
 .info {
     display: flex;
     justify-content: space-around;
-    border: 1px solid gray;
 }
 
-.cards {
-    
+.infocon {
+    margin-top: 16px;
+}
+
+.learn hr {
+     width: 100%;
+     color: #cbcbcb;
+ }
+
+.cards, .thesis {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+
+.cards h1, .thesis h1 {
+    margin: 32px 0 16px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.card_con {
+    margin: 16px 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 350px;
+}
+
+.card h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card_text {
+    margin: 16px;
 }
